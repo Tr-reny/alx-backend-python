@@ -1,18 +1,9 @@
 #!/usr/bin/env python3
-"""
-This module contains a function 'add' that
-takes two floats as arguments and returns their sum.
-"""
+'''Task 0: Basic annotations - add
+'''
+
 
 def add(a: float, b: float) -> float:
-    """
-    Returns the sum of two floats.
-
-    Args:
-        a: the first float
-        b: the second float
-
-    Returns:
-        The sum of a and b as a float.
-    """
+    '''Adds two floating-point numbers.
+    '''
     return a + b

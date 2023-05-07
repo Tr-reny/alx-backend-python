@@ -1,19 +1,9 @@
 #!/usr/bin/env python3
-"""
-This module contains a function 'floor' that
-takes a float as argument and returns the floor of the float.
-"""
+'''Task 2: Basic annotations - floor
+'''
 
-import math
 
-def floor(n: float) -> int:
-    """
-    Returns the floor of a float.
-
-    Args:
-        n: the float to floor
-
-    Returns:
-        The floor of n as an integer.
-    """
-    return math.floor(n)
+def floor(a: float) -> int:
+    '''Computes the floor of a floating-point number.
+    '''
+    return int(a)

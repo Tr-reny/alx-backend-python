@@ -1,17 +1,9 @@
 #!/usr/bin/env python3
-"""
-This module contains a function 'to_str' that
-takes a float as argument and returns its string representation.
-"""
+'''Task 3: Basic annotations - to string
+'''
+
 
 def to_str(n: float) -> str:
-    """
-    Returns the string representation of a float.
-
-    Args:
-        n: the float to convert to string
-
-    Returns:
-        The string representation of n.
-    """
+    '''Converts a floating-point number to a string.
+    '''
     return str(n)
